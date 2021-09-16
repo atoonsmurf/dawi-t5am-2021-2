@@ -181,7 +181,7 @@ public class FrmManteProd extends JFrame {
 		List<Producto>lstProducto=query.getResultList();
 		
 		for(Producto p:lstProducto) {
-			
+				
 
 			txtSalida.append("Codigo \t: "+p.getIdprod()+"\n"+
 							  "Nombre\t: "+p.getDescripcion()+"\n"+

@@ -32,8 +32,8 @@ public class Demo08 {
 	try {
 		
 		u = query.getSingleResult();
-		System.out.println("Bienvenido : "+ u.getNombre() );
-		System.out.println(u);
+		System.out.println("Bienvenido : "+ u.getNombre() +"\n" +u);
+		
 		
 	} catch (Exception e) {
 		System.out.println("Codigo no existe");
